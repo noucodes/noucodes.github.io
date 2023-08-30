@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgba(10, 10, 10, 1);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.3),
+      rgba(10, 10, 10, 1)
+    ),
+    url(img/bg.jpg);
+  background-position: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prof-container {
+  width: 80%;
+  padding-bottom: 20px;
+  line-height: 35px;
+}
+
+.prof-container img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+.info {
+  width: 80%;
+  list-style: none;
+  font-size: 18px;
+}
+
+.info span {
+  color: white;
+}
+
+li .fa-solid {
+  color: white;
+}
+
+.soc-med {
+  padding: 10px 0;
+  width: 80%;
+  font-size: 18px;
+}
+
+.soc-med a {
+  color: white;
+  text-decoration: none;
+  margin-right: 21px;
+}
+
+/* Main */
+main {
+  position: relative;
+  padding: 20px 5% 20px 30%;
+  height: 100%;
+  width: 100%;
+}
+
+main h1 {
+  color: white;
+  margin: 30px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.work,
+.future {
+  padding: 5% 0;
+  margin: 3% 0;
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+  width: 100%;
+  color: white;
+  margin: 20px;
+  column-count: 2;
+}
+
+.projects .container {
+  width: 100%;
+  padding: 3% 5%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.container h2 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.container h3 {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
