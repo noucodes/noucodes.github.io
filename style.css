@@ -24,6 +24,7 @@ header {
     ),
     url(img/bg.jpg);
   background-position: center;
+  z-index: 2;
 }
 
 .wrapper {
@@ -90,6 +91,7 @@ main {
   padding: 20px 5% 20px 30%;
   height: 100%;
   width: 100%;
+  z-index: 1;
 }
 
 main h1 {
