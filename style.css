@@ -116,6 +116,13 @@ main h1 {
   column-count: 2;
 }
 
+.projects-1 {
+  width: 100%;
+  color: white;
+  margin: 20px;
+  column-count: 1;
+}
+
 .projects .container {
   width: 100%;
   padding: 3% 5%;
@@ -123,6 +130,24 @@ main h1 {
   border-radius: 10px;
   background-color: rgb(20, 20, 20);
   color: white;
+}
+
+.container{
+  transition: transform 0.5s ease;
+}
+
+.container:hover{
+  transform: scale(1.05);
+}
+
+.projects-1 .NA{
+  width: 100%;
+  padding: 3% 5%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  text-align: center;
 }
 
 .container h2 {
