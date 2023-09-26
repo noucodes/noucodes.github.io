@@ -132,7 +132,7 @@ main h1 {
 .projects .container {
   width: 100%;
   padding: 3% 5%;
-  margin-bottom: 15px;
+  margin: 0 15px 15px 15px;
   border-radius: 10px;
   background-color: rgb(20, 20, 20);
   color: white;
